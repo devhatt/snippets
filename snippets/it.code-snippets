@@ -1,0 +1,11 @@
+{
+	"it test": {
+		"prefix": "it",
+		"body": [
+			"it('$1', () => {",
+			"  $2",
+			"});"
+		],
+		"description": "it test"
+	}
+}

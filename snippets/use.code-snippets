@@ -1,0 +1,11 @@
+{
+  "Import scss": {
+    "scope": "scss",
+    "prefix": "use",
+    "body": [
+			"@use '~styles/global.scss' as *;",
+			"",
+		],
+    "description": "import a scss file"
+  }
+}

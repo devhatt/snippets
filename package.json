@@ -1,0 +1,72 @@
+{
+  "name": "devhatt-snippets",
+  "displayName": "DevHatt Snippets",
+  "publisher": "DevHat",
+  "keywords": [
+    "ExtensionPack",
+    "DevHat", 
+    "Hatter",
+    "Octopost",
+    "OpenSource",
+    "Community",
+    "Alecell",
+    "Nicoletti"
+  ],
+  "description": "pack with snippets to use in our projects.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devhatt/snippets"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/desc.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/functionComponent.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/functionComponentWithProps.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/interface.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/it.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/ita.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/ladle.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/ladleWithProps.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/test.code-snippets"
+      },
+      {
+        "language": "typescript,javascriptreact,typescriptreact,javascript",
+        "path": "./snippets/use.code-snippets"
+      }
+    ]
+  }
+}

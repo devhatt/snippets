@@ -1,0 +1,11 @@
+{
+	"Describe test": {
+		"prefix": "desc",
+		"body": [
+			"describe('$1', () => {",
+			"  $2",
+			"});"
+		],
+		"description": "Describe test"
+	}
+}

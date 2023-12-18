@@ -1,0 +1,11 @@
+{
+	"it async test": {
+		"prefix": "ita",
+		"body": [
+			"it('$1', async () => {",
+			"  $2",
+			"});"
+		],
+		"description": "it async test"
+	}
+}
